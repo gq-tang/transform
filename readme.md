@@ -6,4 +6,4 @@
 ### 用途
 用于转发UDP客户端数据至TCP服务器，接收TCP服务器数据转发至UDP客户端
 ### 网络调试助手测试效果图
-![demo](./resource/demo/png,"demo")
+![demo](https://github.com/gq-tang/transform/blob/master/resource/demo.png,"demo")
