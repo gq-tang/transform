@@ -1,0 +1,16 @@
+[general]
+# udp port 
+port=9600
+
+# log level:PanicLevel 0;FatalLevel 1;ErrorLevel 2;
+#           WarnLevel 3;InfoLevel 4;DebugLevel 5;
+log_level=4
+
+[tcp_server]
+server="ip:port"
+# tcp client keep alive
+keep_alive=true 
+# tcp client keep alive period
+keep_alive_period=30
+# close client period(unit second)
+close_client_period=300
